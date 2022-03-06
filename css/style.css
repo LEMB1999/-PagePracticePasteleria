@@ -1,0 +1,160 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* utilidades */
+
+.center{
+    margin:0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-3c{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.header{
+    width:100%;
+    padding-left: 10px;
+    background-color:#525558;
+}
+
+
+.link{
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    background-color: #ffa43a;
+    margin-left: auto;
+}
+
+.title{
+    padding:20px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.brand_name{
+   color:white; 
+}
+
+.brand_img{
+    width:100px;
+    height:100px;
+    margin-right: 10px;
+    transform:scaleX(-1);
+}
+
+/* section sabores disponibles  */
+
+.container-sabor img{
+   width: 150px;  
+   height: 100px;  
+   object-fit: cover;
+}
+
+.container-adorno img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.formulario{
+    max-width: 400px;  
+    margin-bottom: 10px; 
+}
+
+.button{
+    padding:10px;
+    background-color: #ffa43a;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}   
+
+.container-cantidad{
+    background-color: #023E8A;
+    margin-left: 5px;
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+
+.button-formulario{
+    margin-left: auto;
+    display: block;
+}
+
+.button-formulario:hover{
+    cursor: pointer;
+}
+
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.field-name {
+    font-size: 20px;
+}
+
+
+footer{
+    padding:10px;
+    background-color:#525558;
+}
+
+ footer div{
+     display: flex;
+     color:white;
+     justify-content: space-evenly;
+ }
+
+ .table-productos{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+ .celda{
+     border:1px solid;
+     padding:5px;
+ }
+
+ .footer-admin{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+
+ .info div{
+     display: flex;
+     flex-direction: column;  
+ }
+
+ .text-info{
+    color:#ffa43a; 
+ }

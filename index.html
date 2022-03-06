@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pasteleria</title>
+
+</head>
+<body>
+     <!-- ver los sabores y los precios de cada uno de los pasteles  -->
+     <div class="header">
+         <div class="center container d-flex">
+            <img class="brand_img" src="img/logo.png" alt="logo">
+            <h1 class="brand_name">Pasteleria los Delfines</h1>
+            <a class="link" href="admin.html">Dashboard</a>
+         </div> 
+     </div>
+
+     <div class="container center">
+     <section>
+         <h2 class="title center-text">
+             Sabores Disponibles
+         </h2>
+         <div class="grid">
+             <div class="container-sabor">
+                <img src="img/chocolate.jpg" alt="pastel de chocolate">
+                <p class="name-sabor" >chocolate</p>
+                <p>Precio: $50</p>  
+             </div>
+             <div class="container-sabor">
+                <img src="img/fresa.jpg" alt="pastel de fresa">
+                <p class="container-sabor" >fresas</p>
+                <p>Precio: $55</p>  
+             </div>
+             <div class="container-sabor">
+                <img src="img/mango.jpg" alt="pastel de mango">
+                <p class="container-sabor">mango</p>
+                <p>Precio: $40</p>  
+             </div>
+             <div class="container-sabor">
+                <img src="img/coco.png" alt="pastel de coco">
+                <p class="container-sabor">coco</p>
+                <p>Precio: $60</p>  
+             </div>
+         </div>
+     </section>
+
+     <section>
+         <h2 class="title center-text">Adornos</h2>
+         <div class="grid-3c">
+            <div class="container-adorno">
+                <img src="img/estrella.jpg" alt="">
+                <p>estrella</p>
+                <p>Precio: $50</p>  
+            </div>
+            <div class="container-adorno">
+                <img src="img/flores.jpg" alt="">
+                <p>flores</p>
+                <p>Precio: $50</p>  
+            </div>
+            <div class="container-adorno">
+                <img src="img/figuras.jpg" alt="">
+                <p>figuras</p>
+                <p>Precio: $50</p>  
+            </div>
+        </div>
+     </section>
+
+     <!-- <div class="aside">
+            <div>
+                <label for="select_sabor">Sabor</label>
+                <select id="select_sabor">
+                    <option value="chocolate">chocolate</option>
+                    <option value="fresa">fresa</option>
+                    <option value="mango">mango</option>
+                    <option value="coco">coco</option>
+                </select>
+            </div>
+            <div>
+                <label for="select_adorno">Adorno</label>
+                <select  id="select_adorno">
+                     <option value="estrella">estrella</option>
+                     <option value="flores">flores</option> 
+                     <option value="monito">monito</option>  
+                </select>
+            </div>
+     </div> -->
+
+     <!-- Formulario para realizar pedidos -->
+     <div class="formulario center">
+         <h2  class="title center-text">Pedido</h2>
+         <div class="field">
+             <label class="field-name" for="">Nombre</label>
+             <input type="text">
+         </div>
+         <div class="field">
+             <label class="field-name" for="">Teléfono</label>
+             <input type="text">
+         </div>
+         <div class="field">
+             <label class="field-name" for="">Email</label>
+             <input type="email">
+         </div>
+         <div class="field">
+             <label class="field-name" for="">Descripcion del Pastel</label>
+             <textarea name="" id="" cols="30" rows="10"></textarea>
+         </div>
+         <div class="field">
+              <label class="field-name" for="">Sabores</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+         </div>
+         <div class="field">
+             <label class="field-name" for="">Adornos</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+         </div>
+         <input class="button button-formulario" type="button" value="Realizar">
+     </div>
+
+    
+    </div> <!-- cierre del container -->
+
+     <footer>
+          <div class="info">
+               <div>
+                    <p class="text-info" >Calle</p>
+                    <p>
+                       Diaz Ordaz
+                    </p>
+                </div>
+                <div>
+                    <p class="text-info" >Contacto</p>
+                    <p>
+                        8721192552
+                    </p>
+                </div>
+                <div>
+              <p class="text-info" > Horario  </p>
+              <p>
+                  10am - 6pm  
+              </p>
+            </div>
+          </div>
+     </footer>
+    
+
+</body>
